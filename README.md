@@ -4,6 +4,10 @@
 
 SetUp Zilla is a starter project to Next.Js projects.
 
+## Structure 
+
+## Tools
+
 ## Installation
 
 Use the package manager [yarn](https://yarnpkg.com/) to install.
