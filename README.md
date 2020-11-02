@@ -19,3 +19,5 @@ Run in developer mode
 ```bash
 yarn run dev
 ```
+
+Be happy :)
