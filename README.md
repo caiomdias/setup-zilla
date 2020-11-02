@@ -5,8 +5,10 @@
 SetUp Zilla is a starter project to Next.Js projects.
 
 ## Structure 
+Soon...
 
 ## Tools
+Soon...
 
 ## Installation
 
