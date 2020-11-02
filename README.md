@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src="./src/assets/dinosaur.svg" /></div>
+<p align:center"><img src="./src/assets/dinosaur.svg" /></p>
 
 # SetUp Zilla
 
