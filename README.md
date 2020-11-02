@@ -1,3 +1,4 @@
+<div style="text-align:center"><img src="./src/assets/dinosaur.svg" /></div>
 ![SetUpZilla](./src/assets/dinosaur.svg)
 # SetUp Zilla
 
