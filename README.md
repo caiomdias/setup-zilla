@@ -1,5 +1,7 @@
 # SetUp Zilla
 
+![SetUpZilla](./src/assets/dinosaur.svg)
+
 SetUp Zilla is a starter project to Next.Js projects.
 
 ## Installation
