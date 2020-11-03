@@ -45,7 +45,8 @@ export default class MyDocument extends Document {
           <link
             href="https://fonts.googleapis.com/css2?family=Roboto:400,500,700"
             rel="stylesheet"
-          ></link>
+          />
+          <link rel="shortcut icon" href="/dinosaur.ico" />
         </Head>
         <body>
           <Main />
