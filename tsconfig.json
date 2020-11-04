@@ -6,7 +6,7 @@
       "dom.iterable",
       "esnext"
     ],
-    "types": ["jest"],
+    "types": ["jest", "cypress"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -22,7 +22,7 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx", "cypress/integration/pages/home_page_spec.js"
   ],
   "exclude": [
     "node_modules"
