@@ -3,15 +3,12 @@ node_js:
   - "node"
   - "10"
 
-cache: yarn
-
-install: yarn
+install: yarn install --frozen-lockfile
 
 cache:
-     paths:
-        - cache/Cypress
+  - ~/.cache
+  - yarn
 
 script:
-  - 'export CYPRESS_CACHE_FOLDER=../../cache/Cypress'
   - yarn run test-no-watch
   - yarn run cypress
