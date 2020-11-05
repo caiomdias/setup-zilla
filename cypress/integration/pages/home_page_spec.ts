@@ -1,6 +1,9 @@
 describe('The Home Page', () => {
-  it('successfully loads', () => {
+  beforeEach(() => {
     cy.visit('/');
+  });
+  it('successfully loads title', () => {
+    cy.contains('SetUp-Zilla');
   });
 });
 
