@@ -52,7 +52,15 @@ setup-zilla/
 
 ## Tools
 
-Soon...
+  [Next.JS](https://nextjs.org/)
+  [React](https://reactjs.org/)
+  [Styled-components](https://styled-components.com/)
+  [Typescript](https://www.typescriptlang.org/)
+  [Babel](https://babeljs.io/)
+  [EsLint](https://eslint.org/)
+  [Jest](https://jestjs.io/en/)
+  [Cypress](https://www.cypress.io/)
+  [Husky](https://github.com/typicode/husky)
 
 ## Installation
 
