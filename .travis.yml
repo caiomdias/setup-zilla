@@ -3,6 +3,9 @@ node_js:
   - "10"
 
 cache: yarn
+
 install: yarn
 
 script: yarn run test-no-watch
+
+script: yarn run cypress
