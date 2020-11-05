@@ -75,7 +75,7 @@ setup-zilla/
 
 Use the package manager [yarn](https://yarnpkg.com/) to install.
 
-Create a .env.local file on the root level folowing the .env.example.
+Create a ```.env.local``` file on the root level folowing the .env.example.
 
 Install dependencies:
 
