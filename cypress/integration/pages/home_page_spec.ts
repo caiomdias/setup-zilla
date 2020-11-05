@@ -1,7 +1,11 @@
 describe('The Home Page', () => {
   it('successfully loads', () => {
-    cy.visit('/')
-  })
-})
+    cy.visit('/');
+  });
 
-export {}
+  it('Check the zilla home image', () => {
+    expect(true).toBeTruthy();
+  });
+});
+
+export {};
