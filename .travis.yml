@@ -1,14 +1,11 @@
 language: node_js
 node_js:
-  - "node"
   - "10"
 
 install: yarn install --frozen-lockfile
 
 cache:
-  - ~/.cache
   - yarn
 
 script:
   - yarn run test-no-watch
-  - yarn run cypress
