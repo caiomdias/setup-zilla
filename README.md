@@ -8,6 +8,7 @@ SetUp Zilla is a starter project to Next.Js projects.
 
 The project follows the standard organization structure of Next.JS
 
+```
 setup-zilla/
   cypress/                              // Cypress settings and tests
   public/                               // Public archives in general
@@ -29,6 +30,7 @@ setup-zilla/
   package.json                          // Central project configuration file
   tsconfig.json                         // Typescript configuration file
   yarn.lock                             // Yarn project management file for Yarn
+```
 
 ## tests
 
@@ -36,10 +38,9 @@ setup-zilla/
 
   The configuration used for [jest](https://jestjs.io/docs/en/configuration) was the default and cypres was adapted to use TS.
 
-  Test files:
-    I preferred to keep the test standard with the "__tests__" folders for each component, page or whatever will be tested unitarily.
-
-    Use of cypress base structure for e2e and interface tests.
+  To test files i preferred to keep the test standard with the ```__tests__``` folders for each component, page or whatever will be tested unitarily.
+    
+  Use of cypress base structure for e2e and interface tests.
 
 ## Automations
 
@@ -68,7 +69,7 @@ Use the package manager [yarn](https://yarnpkg.com/) to install.
 
 Install dependencies:
 
-```bash
+```sh
 
   yarn
 
@@ -76,7 +77,7 @@ Install dependencies:
 
 Run in developer mode
 
-```bash
+```sh
 
 yarn run dev
 
