@@ -21,6 +21,7 @@ setup-zilla/
   .eslintignore                         // Eslint ignore rules
   .eslintrc                             // Eslint configuration
   .gitignore                            // Git ignore rules
+  .travis.yml                           // Travis config
   README.md                             // Project README file
   babel.config.js                       // Babel settings
   cyopress.json                         // Cypress configuration
