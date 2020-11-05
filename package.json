@@ -51,7 +51,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "yarn run lint",
-      "pre-push": "yarn run test-no-watch --bail"
+      "pre-push": "yarn run test-no-watch --bail --findRelatedTests"
     }
   }
 }
