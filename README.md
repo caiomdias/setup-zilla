@@ -6,7 +6,7 @@ SetUp Zilla is a starter project to Next.Js projects.
 
 ## structure
 
-The project follows the standard organization structure of Next.JS
+The project follows the standard organization structure of Next.JS.
 
 ```
 setup-zilla/
@@ -39,7 +39,7 @@ setup-zilla/
   The configuration used for [jest](https://jestjs.io/docs/en/configuration) was the default and cypres was adapted to use TS.
 
   To test files i preferred to keep the test standard with the ```__tests__``` folders for each component, page or whatever will be tested unitarily.
-    
+
   Use of cypress base structure for e2e and interface tests.
 
 ## Automations
@@ -54,21 +54,21 @@ setup-zilla/
 ## Tools
 
   [Next.JS](https://nextjs.org/)
-  
+
   [React](https://reactjs.org/)
-  
+
   [Styled-components](https://styled-components.com/)
-  
+
   [Typescript](https://www.typescriptlang.org/)
-  
+
   [Babel](https://babeljs.io/)
-  
+
   [EsLint](https://eslint.org/)
-  
+
   [Jest](https://jestjs.io/en/)
-  
+
   [Cypress](https://www.cypress.io/)
-  
+
   [Husky](https://github.com/typicode/husky)
 
 ## Installation
