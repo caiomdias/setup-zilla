@@ -25,7 +25,7 @@ setup-zilla/
   babel.config.js                       // Babel settings
   cyopress.json                         // Cypress configuration
   jest.config.js                        // Jest settings
-  next-env.d.ts                         // File that ensures that Next.js types are selected by the [TS compiler](https://nextjs.org/docs/basic-features/typescript)
+  next-env.d.ts                         // File that ensures that Next.js types are selected by the TS compiler
   next.config.js                        // Next.js settings
   package.json                          // Central project configuration file
   tsconfig.json                         // Typescript configuration file
@@ -54,13 +54,21 @@ setup-zilla/
 ## Tools
 
   [Next.JS](https://nextjs.org/)
+  
   [React](https://reactjs.org/)
+  
   [Styled-components](https://styled-components.com/)
+  
   [Typescript](https://www.typescriptlang.org/)
+  
   [Babel](https://babeljs.io/)
+  
   [EsLint](https://eslint.org/)
+  
   [Jest](https://jestjs.io/en/)
+  
   [Cypress](https://www.cypress.io/)
+  
   [Husky](https://github.com/typicode/husky)
 
 ## Installation
