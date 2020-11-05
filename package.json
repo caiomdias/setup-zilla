@@ -6,12 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "bundle-analyzer": "ANALYZE=true yarn build",
+    "bundle-analyzer": "cross-env ANALYZE=true yarn build",
     "test": "jest --watch",
     "test-no-watch": "jest",
     "coverage": "jest --coverage",
     "cypress-terminal": "npx cypress open",
-    "cypress": "npx cypress run --record --key 7803d2eb-2898-4218-a71e-255ed58f4a50",
+    "cypress": "cross-env npx cypress run --record --key NODE_ENV=CYPRESS_KEY",
     "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
