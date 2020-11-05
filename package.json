@@ -11,7 +11,7 @@
     "test-no-watch": "jest",
     "coverage": "jest --coverage",
     "cypress-terminal": "npx cypress open",
-    "cypress": "cross-env npx cypress run --record --key NODE_ENV=CYPRESS_KEY",
+    "cypress": "cross-env npx cypress run --record --key f6edcae8-98e3-4997-90a8-8f185871ff4a",
     "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
