@@ -45,7 +45,7 @@ setup-zilla/
 
 ## Automations
 
-  Husky is used in the pre-commit, lint check, and pre-push, test check steps
+  Husky is used in the pre-commit, lint check, and pre-push, test check steps.
 
 ## Improvements:
 
