@@ -22,7 +22,8 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx", "cypress/integration/pages/home_page_spec.js"
+    "**/*.tsx",
+    "cypress/integration/pages/home_page_spec.js"
   ],
   "exclude": [
     "node_modules"
