@@ -49,8 +49,8 @@ setup-zilla/
 
 ## Improvements:
 
-  Add findRelatedTests to the pre-push
-  Add a commit pattern and use it in the pre-commit
+  Add findRelatedTests to the pre-push.
+  Add a commit pattern and use it in the pre-commit.
 
 ## Tools
 

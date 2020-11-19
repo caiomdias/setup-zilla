@@ -1,0 +1,19 @@
+name: End-to-end tests
+on: [push]
+jobs:
+  cypress-run:
+    runs-on: ubuntu-16.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
+        with:
+           record: true
+           start: yarn run dev
+        env:
+          # pass the Dashboard record key as an environment variable
+          CYPRESS_RECORD_KEY: f6edcae8-98e3-4997-90a8-8f185871ff4a
+           
